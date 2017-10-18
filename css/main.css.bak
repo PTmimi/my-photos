@@ -1,0 +1,113 @@
+
+body{
+	background-color:#F5D5D9;
+}
+h1{
+     text-align:center;
+	 text-shadow:5px 5px 5px red;
+}
+.container{
+	width:1060px; 
+	height:600px; 
+	margin:60px auto; 
+	position:relative;
+}
+
+.container img{
+	width: 190px;
+	height: auto;
+	padding:12px 16px; 
+	background:white; 
+	border:2px solid #ddd; 
+	box-shadow:2px 2px 3px rgba(50, 50, 50, 0.4);
+	-webkit-transition:all .5s ease-in-out;/*谷歌，火狐前缀，加速后减速*/
+	-moz-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out; 
+	position:absolute; 
+	z-index:1;
+}
+
+.container img:hover{
+    /*彩色边框效果*/
+	 box-shadow: 10px 0 5px #FAE665, 0 10px 5px #A8F85D , -10px 0 5px #EBA1C9, 0 -10px 5px #ABD6EC;
+    /*旋转&放大*/
+	-webkit-transform:rotate(0deg) scale(1.8); 
+	-moz-transform:rotate(0deg) scale(1.8); 
+	transform:rotate(0deg) scale(1.8); 
+	cursor: crosshair;
+	z-index:2;
+}
+
+.pic1{
+	left: 260px; 
+	top: 0; 
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+}
+
+.pic2{
+	top: 0; 
+	left: 540px; 
+	-webkit-transform: rotate(10deg); 
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg);
+}
+
+.pic3
+{
+	bottom:0; 
+	left:260px; 
+	-webkit-transform: rotate(10deg); 
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg);
+}
+	
+.pic4
+{
+	bottom:0;
+	left: 540px; 
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+}
+
+.pic5
+{
+	bottom:80px; 
+	left:0; 
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+ 
+}
+
+.pic6
+{
+	top: 80px; 
+	left:0; 
+	-webkit-transform: rotate(10deg); 
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg);
+}
+
+
+
+.pic7
+{   
+   
+	top:50px; 
+	right:0; 
+	-webkit-transform: rotate(-15deg); 
+	-moz-transform: rotate(-15deg); 
+	transform: rotate(-15deg);
+}
+
+.pic8
+{   
+	bottom:50px; 
+	right: 0; 
+	-webkit-transform: rotate(15deg); 
+	-moz-transform: rotate(15deg); 
+	transform: rotate(15deg);
+}
